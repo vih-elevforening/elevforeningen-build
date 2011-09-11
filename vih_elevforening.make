@@ -19,31 +19,41 @@ projects[email][subdir] = contrib
 projects[entity][subdir] = contrib
 
 projects[feeds][subdir] = contrib
-projects[feeds][version] = 2.0-alpha4
+
+projects[features][subdir] = contrib
 
 projects[field_group][subdir] = contrib
 
-projects[features][subdir] = contrib
+projects[filter_perms][subdir] = contrib
+projects[filter_perms][version] = 1.x-dev
 
 projects[google_analytics][subdir] = contrib 
 
 projects[l10n_update][subdir] = contrib 
 
+projects[libraries][subdir] = contrib
+
+projects[logintoboggan][subdir] = contri
+
 projects[mailchimp][subdir] = contrib
-projects[mailchimp][version] = 2.0-rc1
 
 projects[media][subdir] = contrib
 projects[media][version] = 1.0-beta5
 
 projects[media_youtube][subdir] = contrib
 
-projects[menu_block][subdir] = contrib
+projects[module_filter][subdir] = contrib
+
+projects[mollom][subdir] = contrib
 
 projects[pathauto][subdir] = contrib
 
 projects[views][subdir] = contrib
 
 projects[views_bulk_operations][subdir] = contrib
+
+projects[views_slideshow][subdir] = contrib
+projects[views_slideshow][version] = 3.0-alpha1
 
 projects[wysiwyg][subdir] = contrib
 
@@ -69,8 +79,15 @@ projects[dji][download][url] = "git://github.com/vih-elevforening/elevforeningen
 ;projects[vih][download][type] = "git"
 ;projects[vih][download][url] = "git://github.com/vih/vih.dk-features.git"
 
+
 ; Libraries
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.4.1/ckeditor_3.4.1.zip"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.1/ckeditor_3.6.1.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
+
+; Libraries
+libraries[jquery.cycle][download][type] = "get"
+libraries[jquery.cycle][download][url] = "https://raw.github.com/malsup/cycle/master/jquery.cycle.all.js"
+libraries[jquery.cycle][directory_name] = "jquery.cycle"
+libraries[jquery.cycle][destination] = "libraries"

@@ -22,6 +22,7 @@ dependencies[] = toolbar
 dependencies[] = rdf
 
 ; contrib
+dependencies[] = addressfield
 dependencies[] = cck
 dependencies[] = ctools
 dependencies[] = entity
@@ -30,11 +31,15 @@ dependencies[] = features
 dependencies[] = feeds
 dependencies[] = feeds_ui
 dependencies[] = file_styles
-dependencies[] = job_scheduler
+dependencies[] = filter_perms
 dependencies[] = l10n_update
+dependencies[] = logintoboggan
 dependencies[] = mailchimp
+dependencies[] = mailchimp_lists
 dependencies[] = media
 dependencies[] = media_youtube
+dependencies[] = module_filter
+dependencies[] = mollom
 dependencies[] = pathauto
 dependencies[] = references
 dependencies[] = strongarm
