@@ -31,6 +31,9 @@ projects[google_analytics][subdir] = contrib
 
 projects[l10n_update][subdir] = contrib 
 
+projects[job_scheduler][subdir] = contrib
+projects[job_scheduler][version] = 2.0-alpha2
+
 projects[libraries][subdir] = contrib
 
 projects[logintoboggan][subdir] = contri
@@ -38,7 +41,7 @@ projects[logintoboggan][subdir] = contri
 projects[mailchimp][subdir] = contrib
 
 projects[media][subdir] = contrib
-projects[media][version] = 1.0-beta5
+projects[media][version] = 2.0-unstable1
 
 projects[media_youtube][subdir] = contrib
 
@@ -46,7 +49,11 @@ projects[module_filter][subdir] = contrib
 
 projects[mollom][subdir] = contrib
 
+projects[panels][subdir] = contrib
+
 projects[pathauto][subdir] = contrib
+
+projects[pdf_reader][subdir] = contrib
 
 projects[views][subdir] = contrib
 
@@ -68,17 +75,6 @@ projects[token][subdir] = contrib
 projects[transliteration][subdir] = contrib
 
 projects[xmlsitemap][subdir] = contrib	
-
-; Themes
-projects[dji][type] = "theme"
-projects[dji][download][type] = "git"
-projects[dji][download][url] = "git://github.com/vih-elevforening/elevforeningen.vih.dk-theme.git"
-
-; Modules
-;projects[vih][type] = "module"
-;projects[vih][download][type] = "git"
-;projects[vih][download][url] = "git://github.com/vih/vih.dk-features.git"
-
 
 ; Libraries
 libraries[ckeditor][download][type] = "get"
