@@ -79,6 +79,10 @@ projects[views_data_export][version] = 3.0-beta5
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 3.0-beta3
 
+projects[vih][type] = "module"
+projects[vih][download][type] = "git"
+projects[vih][download][url] = "git://github.com/vih-elevforening/elevforeningen-modules.git"
+
 ;;;;;;;;;;;
 ; Libraries
 ;;;;;;;;;;;
