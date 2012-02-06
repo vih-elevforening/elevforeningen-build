@@ -52,9 +52,6 @@ projects[pathauto][version] = 1.0
 projects[pdf_reader][subdir] = contrib
 projects[pdf_reader][version] = 1.0-beta3
 
-projects[references][subdir] = contrib
-projects[references][version] = 2.0
-
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0-beta5
 
@@ -75,6 +72,9 @@ projects[views][version] = 3.1
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.0-beta3
+
+projects[views_data_export][subdir] = contrib
+projects[views_data_export][version] = 3.0-beta5
 
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 3.0-beta3
