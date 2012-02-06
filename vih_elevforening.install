@@ -1,5 +1,5 @@
 <?php
-require dirname(__FILE__) . '/../standard/standard.install';
+require dirname(__FILE__) . '/../standard/minimal.install';
 
 /**
  * Implements hook_install().
@@ -7,7 +7,7 @@ require dirname(__FILE__) . '/../standard/standard.install';
  * Perform actions to set up the site for this profile.
  */
 function vih_elevforening_install() {
-  standard_install();
+  minimal_install();
 
   $theme = 'dji';
 
