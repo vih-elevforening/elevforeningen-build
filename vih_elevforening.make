@@ -4,9 +4,6 @@ core = 7.x
 projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-beta2
 
-projects[cck][subdir] = contrib
-projects[cck][version] = 2.x-dev
-
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.0-rc1
 

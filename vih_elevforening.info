@@ -1,6 +1,6 @@
 name = Vejle Idrætshøjskoles Elevforening
 description = Install site for Vejle Idrætshøjskoles Elevforening
-version = 0.2
+version = 7.x-0.2
 core = 7.x
 dependencies[] = block
 dependencies[] = contextual
