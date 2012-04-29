@@ -71,11 +71,11 @@ projects[views_data_export][subdir] = contrib
 projects[views_data_export][version] = 3.0-beta5
 
 projects[wysiwyg][subdir] = contrib
-projects[wysiwyg][version] = 3.0-beta3
+projects[wysiwyg][version] = 2.1
 
-projects[vih][type] = "module"
-projects[vih][download][type] = "git"
-projects[vih][download][url] = "git://github.com/vih-elevforening/elevforeningen-modules.git"
+projects[elevforening][type] = "module"
+projects[elevforening][download][type] = "git"
+projects[elevforening][download][url] = "git://github.com/vih-elevforening/elevforeningen-modules.git"
 
 ;;;;;;;;;;;
 ; Libraries
