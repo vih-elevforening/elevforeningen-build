@@ -40,14 +40,11 @@ dependencies[] = pathauto
 dependencies[] = pdf_reader
 dependencies[] = references
 dependencies[] = strongarm
-dependencies[] = references
 dependencies[] = token
 dependencies[] = transliteration
 dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = views_bulk_operations
-dependencies[] = views_slideshow
 dependencies[] = wysiwyg
-dependencies[] = xmlsitemap
 
 files[] = vih_elevforening.profile
