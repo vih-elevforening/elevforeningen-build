@@ -20,7 +20,7 @@ before_script:
   - drush cc all --yes
 
 script: 
-  - test -d profiles/vih_dk
-  - test -d profiles/vih_dk/modules/contrib
-  - test -d profiles/vih_dk/modules/vih
-  - test -d profiles/vih_dk/themes
+  - test -d profiles/vih_elevforening
+  - test -d profiles/vih_elevforening/modules/contrib
+  - test -d profiles/vih_elevforening/modules/vih
+  - test -d profiles/vih_elevforening/themes
