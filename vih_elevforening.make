@@ -5,13 +5,13 @@ projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-beta3
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.0
+projects[ctools][version] = 1.1
 
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-rc3
 
 projects[features][subdir] = contrib
-projects[features][version] = 1.0-rc3
+projects[features][version] = 1.0
 
 projects[feeds][subdir] = contrib
 projects[feeds][version] = 2.0-alpha5
@@ -44,7 +44,7 @@ projects[mollom][subdir] = contrib
 projects[mollom][version] = 1.1
 
 projects[pathauto][subdir] = contrib
-projects[pathauto][version] = 1.1
+projects[pathauto][version] = 1.2
 
 projects[pdf_reader][subdir] = contrib
 projects[pdf_reader][version] = 1.0-rc3
@@ -56,7 +56,7 @@ projects[taxonomy_display][subdir] = contrib
 projects[taxonomy_display][version] = 1.0
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.1
+projects[token][version] = 1.2
 
 projects[transliteration][subdir] = contrib
 projects[transliteration][version] = 3.1
