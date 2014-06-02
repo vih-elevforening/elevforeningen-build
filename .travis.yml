@@ -1,7 +1,7 @@
 language: php
 
 php:
-  - 5.3
+  - 5.4
 
 mysql:
   database: drupal
@@ -9,15 +9,38 @@ mysql:
   encoding: utf8
   
 before_script:
+  - sudo apt-get update > /dev/null
   - "mysql -e 'create database drupal;'"
-  - pear channel-discover pear.drush.org
-  - pear install drush/drush
+
+  # Install the latest Drush 6.
+  - export PATH="$HOME/.composer/vendor/bin:$PATH"
+  - composer global require drush/drush:6.*
   - phpenv rehash
-  - drush make vih_elevforening.build ../elevforeningen.vih.dk
-  - cd ../elevforeningen.vih.dk
-  - sudo chmod -R 777 sites/all/modules
-  - drush si vih_elevforening --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=VIH@2012 --site-mail=admin@example.com --site-name="elevforeningen.vih.dk" --yes
-  - drush cc all --yes
+
+ # Build Codebase
+  - mkdir private_files
+  - mkdir profiles
+  - mv vih-build profiles/vih_dk
+  - mkdir drupal
+  - mv profiles drupal/
+
+  # Test the current branch
+  - cd drupal
+  - drush make --prepare-install profiles/vih_dk/build-elevforening.make --yes
+  - cd ../
+
+  # Setup files
+  - sudo chmod -R 777 drupal/sites/all
+
+  # Disable sendmail
+  - echo sendmail_path=`which true` >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+
+before_script:
+
+  - cd drupal
+  - drush si vih_elevforening --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=admin --site-mail=admin@example.com --site-name="VIH Elevforening" --yes
+  - drush runserver --server=builtin 8888 > /dev/null 2>&1 &
+  - until netstat -an 2>/dev/null | grep '8888.*LISTEN'; do true; done
 
 script: 
   - test -d profiles/vih_elevforening
