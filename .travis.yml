@@ -17,7 +17,10 @@ before_script:
   - composer global require drush/drush:6.*
   - phpenv rehash
 
- # Build Codebase
+  # Be in correct directory
+  - cd ../
+
+  # Build Codebase
   - mkdir private_files
   - mkdir profiles
   - mv vih-build profiles/vih_dk
