@@ -8,7 +8,7 @@ mysql:
   username: root
   encoding: utf8
   
-before_script:
+install:
   - sudo apt-get update > /dev/null
   - "mysql -e 'create database drupal;'"
 
