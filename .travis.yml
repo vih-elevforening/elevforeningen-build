@@ -47,5 +47,5 @@ before_script:
 
 script: 
   - test -d profiles/vih_elevforening
-  - test -d profiles/vih_elevforening/modules/contrib
-  - test -d profiles/vih_elevforening/modules/elevforening
+  - test -d sites/all/modules/contrib
+  - test -d sites/all/modules/elevforening
