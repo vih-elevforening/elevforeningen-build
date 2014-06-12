@@ -1,4 +1,4 @@
-[elevforeningen.vih.dk](http://elevforeningen.vih.dk) [![Build Status](https://secure.travis-ci.org/vih-elevforening/elevforeningen-deploy.png?branch=7.x-1.x)](http://travis-ci.org/vih-elevforening/elevforeningen-deploy)
+[elevforeningen.vih.dk](http://elevforeningen.vih.dk) [![Build Status](https://secure.travis-ci.org/vih-elevforening/elevforeningen-build.png?branch=7.x-1.x)](http://travis-ci.org/vih-elevforening/elevforeningen-build)
 ==
 
 Instructions on how to build the site from Drupal 7.
