@@ -5,7 +5,10 @@ includes[] = https://raw.githubusercontent.com/vih-elevforening/elevforeningen-b
 
 ; Panopoly
 projects[commons][type] = profile
-projects[commons][version] = 3.13
+projects[commons][version] = 3.x-dev
+projects[commons][download][type] = git
+projects[commons][download][branch] = 7.x-3.x
+projects[commons][download][revision] = 568179d
 
 ; Additional modules
 includes[] = https://raw.githubusercontent.com/vih-elevforening/elevforeningen-build/7.x-2.x/drupal-org.make
