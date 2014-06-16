@@ -101,6 +101,12 @@ projects[site_verify][version] = 1.1
 ; Custom modules
 ;;;;;;;;;;;
 
+projects[ef_commerce][type] = "module"
+projects[ef_commerce][download][type] = "git"
+projects[ef_commerce][download][url] = "git@github.com:vih-elevforening/ef_commerce.git"
+projects[ef_commerce][branch] = "7.x-2.x"
+projects[ef_commerce][revision] = "79d33db"
+
 projects[ef_deploy][type] = "module"
 projects[ef_deploy][download][type] = "git"
 projects[ef_deploy][download][url] = "git://github.com/vih-elevforening/ef_deploy.git"
