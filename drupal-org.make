@@ -103,7 +103,7 @@ projects[site_verify][version] = 1.1
 
 projects[ef_commerce][type] = "module"
 projects[ef_commerce][download][type] = "git"
-projects[ef_commerce][download][url] = "git://github.com:vih-elevforening/ef_commerce.git"
+projects[ef_commerce][download][url] = "git://github.com/vih-elevforening/ef_commerce.git"
 projects[ef_commerce][branch] = "7.x-2.x"
 projects[ef_commerce][revision] = "6616b78"
 
@@ -115,9 +115,9 @@ projects[ef_deploy][revision] = "f02be0bb6aa9992f953e28a1c4078d327ee936a7"
 
 projects[ef_events][type] = "module"
 projects[ef_events][download][type] = "git"
-projects[ef_events][download][url] = "git://github.com:vih-elevforening/ef_events.git"
+projects[ef_events][download][url] = "git://github.com/vih-elevforening/ef_events.git"
 projects[ef_events][branch] = "7.x-2.x"
-projects[ef_events][revision] = "533f0aa"
+projects[ef_events][revision] = "391e3e9"
 
 projects[ef_migrate][type] = "module"
 projects[ef_migrate][download][type] = "git"
