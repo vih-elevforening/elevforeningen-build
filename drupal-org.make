@@ -52,6 +52,51 @@ projects[inline_entity_form][version] = 1.5
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.9
 
+projects[views_megarow][subdir] = contrib
+projects[views_megarow][version] = 1.3
+
+;;;;;;;;;
+; Messages and email
+;;;;;;;;;
+
+projects[mailsystem][subdir] = contrib
+projects[mailsystem][version] = 2.34
+
+projects[message][subdir] = contrib
+projects[message][version] = 1.9
+
+projects[message_notify][subdir] = contrib
+projects[message_notify][version] = 2.5
+
+;;;;;;;;;
+; Migrate
+;;;;;;;;
+
+projects[migrate][version] = "2.5"
+projects[migrate][type] = "module"
+projects[migrate][subdir] = "contrib"
+
+projects[migrate_extras][version] = "2.5"
+projects[migrate_extras][type] = "module"
+projects[migrate_extras][subdir] = "contrib"
+
+;;;;;;;;;
+; SEO Tools
+;;;;;;;;;
+
+projects[google_analytics][subdir] = contrib
+projects[google_analytics][version] = 1.4
+projects[google_analytics][patch][1833578] = https://drupal.org/files/google_analytics-enhanced_link_attribution-1833578-26.patch
+
+projects[google_analytics_reports][subdir] = contrib
+projects[google_analytics_reports][version] = 1.3
+
+projects[schemaorg][subdir] = contrib
+projects[schemaorg][version] = 1.0-beta4
+
+projects[site_verify][subdir] = contrib
+projects[site_verify][version] = 1.1
+
 ;;;;;;;;;;;
 ; Custom modules
 ;;;;;;;;;;;
