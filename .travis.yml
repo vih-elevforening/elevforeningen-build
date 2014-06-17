@@ -45,6 +45,7 @@ before_script:
   - cd drupal
   - drush si commons --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=admin --site-mail=admin@example.com --site-name="VIH Elevforening" --yes
   - drush en ef_deploy -y
+  - drush en ef_events -y
   - drush runserver --server=builtin 8888 > /dev/null 2>&1 &
   - until netstat -an 2>/dev/null | grep '8888.*LISTEN'; do true; done
   - cd profiles/vih_dk/tests/behat
