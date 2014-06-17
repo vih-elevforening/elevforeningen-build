@@ -43,6 +43,13 @@ projects[commerce_migrate][download][type] = git
 projects[commerce_migrate][download][branch] = 1.x-dev
 projects[commerce_migrate][download][revision] = 46a8c0c
 
+projects[commerce_donate][subdir] = contrib]
+projects[commerce_donate][version] = 1.x-dev
+projects[commerce_donate][download][type] = git
+projects[commerce_donate][download][branch] = 1.x
+projects[commerce_donate][download][revision] = 18a6b8e
+projects[commerce_donate][patch][2143655] = http://drupal.org/files/issues/commerce_donate-conditional_select-2143655-1.patch
+
 projects[registration_commerce][subdir] = contrib
 projects[registration_commerce][version] = 1.0-beta1
 
