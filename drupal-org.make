@@ -46,7 +46,7 @@ projects[commerce_migrate][download][type] = git
 projects[commerce_migrate][download][branch] = 1.x-dev
 projects[commerce_migrate][download][revision] = 46a8c0c
 
-projects[commerce_donate][subdir] = contrib]
+projects[commerce_donate][subdir] = contrib
 projects[commerce_donate][version] = 1.x-dev
 projects[commerce_donate][download][type] = git
 projects[commerce_donate][download][branch] = 1.x
@@ -83,11 +83,9 @@ projects[message_notify][version] = 2.5
 ;;;;;;;;
 
 projects[migrate][version] = "2.5"
-projects[migrate][type] = "module"
 projects[migrate][subdir] = "contrib"
 
 projects[migrate_extras][version] = "2.5"
-projects[migrate_extras][type] = "module"
 projects[migrate_extras][subdir] = "contrib"
 
 ;;;;;;;;;
@@ -111,24 +109,28 @@ projects[site_verify][version] = 1.1
 ; Custom modules
 ;;;;;;;;;;;
 
+projects[ef_commerce][subdir] = "ef"
 projects[ef_commerce][type] = "module"
 projects[ef_commerce][download][type] = "git"
 projects[ef_commerce][download][url] = "git://github.com/vih-elevforening/ef_commerce.git"
 projects[ef_commerce][branch] = "7.x-2.x"
 projects[ef_commerce][revision] = "6616b78"
 
+projects[ef_deploy][subdir] = "ef"
 projects[ef_deploy][type] = "module"
 projects[ef_deploy][download][type] = "git"
 projects[ef_deploy][download][url] = "git://github.com/vih-elevforening/ef_deploy.git"
 projects[ef_deploy][branch] = "7.x-1.x"
 projects[ef_deploy][revision] = "f02be0bb6aa9992f953e28a1c4078d327ee936a7"
 
+projects[ef_events][subdir] = "ef"
 projects[ef_events][type] = "module"
 projects[ef_events][download][type] = "git"
 projects[ef_events][download][url] = "git://github.com/vih-elevforening/ef_events.git"
 projects[ef_events][branch] = "7.x-2.x"
 projects[ef_events][revision] = "988629c"
 
+projects[ef_migrate][subdir] = "ef"
 projects[ef_migrate][type] = "module"
 projects[ef_migrate][download][type] = "git"
 projects[ef_migrate][download][url] = "git://github.com/vih-elevforening/ef_migrate.git"
