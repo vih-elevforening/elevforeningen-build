@@ -8,6 +8,9 @@ core = 7.x
 projects[registration][subdir] = contrib
 projects[registration][version] = 1.3
 
+projects[select_or_other][subdir] = contrib
+projects[select_or_other][version] = 2.20
+
 ;;;;;;;;;;;
 ; Commerce Integration
 ;;;;;;;;;;;
