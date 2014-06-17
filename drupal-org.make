@@ -53,8 +53,8 @@ projects[commerce_donate][download][branch] = 1.x
 projects[commerce_donate][download][revision] = 18a6b8e
 projects[commerce_donate][patch][2143655] = http://drupal.org/files/issues/commerce_donate-conditional_select-2143655-1.patch
 
-projects[registration_commerce][subdir] = contrib
-projects[registration_commerce][version] = 1.0-beta1
+projects[commerce_registration][subdir] = contrib
+projects[commerce_registration][version] = 2.0-beta5
 
 projects[inline_entity_form][subdir] = contrib
 projects[inline_entity_form][version] = 1.5
