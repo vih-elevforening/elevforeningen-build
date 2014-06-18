@@ -50,8 +50,6 @@ projects[commerce_donate][download][branch] = 1.x
 projects[commerce_donate][download][revision] = 18a6b8e
 projects[commerce_donate][patch][2143655] = http://drupal.org/files/issues/commerce_donate-conditional_select-2143655-1.patch
 
-projects[commerce_registration][subdir] = contrib
-projects[commerce_registration][version] = 2.0-beta5
 
 projects[inline_entity_form][subdir] = contrib
 projects[inline_entity_form][version] = 1.5
@@ -113,7 +111,7 @@ projects[ef_events][type] = "module"
 projects[ef_events][download][type] = "git"
 projects[ef_events][download][url] = "https://github.com/vih-elevforening/ef_events.git"
 projects[ef_events][branch] = "7.x-2.x"
-projects[ef_events][revision] = "720e1ae"
+projects[ef_events][revision] = "97962d6"
 
 projects[ef_migrate][subdir] = "ef"
 projects[ef_migrate][type] = "module"
