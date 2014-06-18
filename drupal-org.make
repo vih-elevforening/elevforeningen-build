@@ -51,6 +51,9 @@ projects[commerce_donate][download][revision] = 18a6b8e
 projects[commerce_donate][patch][2143655] = http://drupal.org/files/issues/commerce_donate-conditional_select-2143655-1.patch
 
 
+projects[commerce_stock][subdir] = contrib
+projects[commerce_stock][version] = 2.0
+
 projects[inline_entity_form][subdir] = contrib
 projects[inline_entity_form][version] = 1.5
 
@@ -97,7 +100,7 @@ projects[ef_commerce][type] = "module"
 projects[ef_commerce][download][type] = "git"
 projects[ef_commerce][download][url] = "https://github.com/vih-elevforening/ef_commerce.git"
 projects[ef_commerce][branch] = "7.x-2.x"
-projects[ef_commerce][revision] = "52d28f2"
+projects[ef_commerce][revision] = "2e9cab3"
 
 projects[ef_deploy][subdir] = "ef"
 projects[ef_deploy][type] = "module"
@@ -111,7 +114,7 @@ projects[ef_events][type] = "module"
 projects[ef_events][download][type] = "git"
 projects[ef_events][download][url] = "https://github.com/vih-elevforening/ef_events.git"
 projects[ef_events][branch] = "7.x-2.x"
-projects[ef_events][revision] = "a659f71"
+projects[ef_events][revision] = "13c2042"
 
 projects[ef_migrate][subdir] = "ef"
 projects[ef_migrate][type] = "module"
