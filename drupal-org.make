@@ -31,9 +31,6 @@ projects[commerce_features][version] = 1.0
 projects[commerce_google_analytics][subdir] = contrib
 projects[commerce_google_analytics][version] = 1.1
 
-projects[commerce_message][subdir] = contrib
-projects[commerce_message][version] = 1.0-rc2
-
 projects[commerce_migrate][subdir] = contrib
 projects[commerce_migrate][version] = 1.x-dev
 projects[commerce_migrate][download][type] = git
@@ -45,8 +42,8 @@ projects[commerce_donate][version] = 1.x-dev
 projects[commerce_donate][download][type] = git
 projects[commerce_donate][download][branch] = 1.x
 projects[commerce_donate][download][revision] = 18a6b8e
-projects[commerce_donate][patch][2143655] = http://drupal.org/files/issues/commerce_donate-conditional_select-2143655-1.patch
-
+; projects[commerce_donate][patch][2143655] = http://drupal.org/files/issues/commerce_donate-conditional_select-2143655-1.patch
+projects[commerce_donate][patch][2062285] = https://www.drupal.org/files/commerce_donate-Fix-default-in-checkout-2062285-3.patch
 projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 2.0
 
@@ -96,7 +93,7 @@ projects[ef_commerce][type] = "module"
 projects[ef_commerce][download][type] = "git"
 projects[ef_commerce][download][url] = "https://github.com/vih-elevforening/ef_commerce.git"
 projects[ef_commerce][branch] = "7.x-2.x"
-projects[ef_commerce][revision] = "2ae3d33"
+projects[ef_commerce][revision] = "67bc830"
 
 projects[ef_deploy][subdir] = "ef"
 projects[ef_deploy][type] = "module"
