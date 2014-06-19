@@ -16,9 +16,6 @@ projects[commerce][subdir] = contrib
 projects[commerce][version] = 1.9
 projects[commerce][patch][840786] = http://drupal.org/files/840786-add-account-info-2.patch
 
-projects[commerce_addressbook][subdir] = contrib
-projects[commerce_addressbook][version] = 2.0-rc7
-
 projects[commerce_autosku][subdir] = contrib
 projects[commerce_autosku][version] = 1.1
 
