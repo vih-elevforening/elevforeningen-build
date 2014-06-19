@@ -113,7 +113,7 @@ projects[ef_events][type] = "module"
 projects[ef_events][download][type] = "git"
 projects[ef_events][download][url] = "https://github.com/vih-elevforening/ef_events.git"
 projects[ef_events][branch] = "7.x-2.x"
-projects[ef_events][revision] = "e57ad62"
+projects[ef_events][revision] = "a015f15"
 
 projects[ef_migrate][subdir] = "ef"
 projects[ef_migrate][type] = "module"
