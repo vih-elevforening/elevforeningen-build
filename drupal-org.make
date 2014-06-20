@@ -21,6 +21,17 @@ projects[commerce_autosku][version] = 1.1
 projects[commerce_backoffice][subdir] = contrib
 projects[commerce_backoffice][version] = 1.4
 
+projects[commerce_billy][subdir] = contrib
+projects[commerce_billy][version] = 1.0-beta2
+
+projects[commerce_billy][subdir] = contrib
+projects[commerce_billy][version] = 1.0-beta2
+
+libraries[dompdf][directory_name] = dompdf
+libraries[dompdf][download][type] = get
+libraries[dompdf][download][url] = http://dompdf.googlecode.com/files/dompdf_0-6-0_beta3.tar.gz
+libraries[dompdf][overwrite] = TRUE
+
 projects[commerce_checkout_progress][subdir] = contrib
 projects[commerce_checkout_progress][version] = 1.3
 
@@ -94,7 +105,7 @@ projects[ef_commerce][type] = "module"
 projects[ef_commerce][download][type] = "git"
 projects[ef_commerce][download][url] = "https://github.com/vih-elevforening/ef_commerce.git"
 projects[ef_commerce][branch] = "7.x-2.x"
-projects[ef_commerce][revision] = "52a93aa"
+projects[ef_commerce][revision] = "3bdc35c"
 
 projects[ef_deploy][subdir] = "ef"
 projects[ef_deploy][type] = "module"
