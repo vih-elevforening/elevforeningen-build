@@ -84,6 +84,17 @@ projects[views_megarow][version] = 1.3
 projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
 
+projects[mailchimp][subdir] = contrib
+projects[mailchimp][version] = 2.x-dev
+projects[mailchimp][download][type] = git
+projects[mailchimp][download][revision] = 28dc12ab0078ac52a48dabf42d40524c78d4c304
+projects[mailchimp][download][branch] = 7.x-2.x
+
+libraries[mailchimp][download][type] = "get"
+libraries[mailchimp][download][url] = "https://github.com/lsolesen/mailchimp-api-class/archive/v.1.3.2.zip"
+libraries[mailchimp][directory_name] = "mailchimp"
+libraries[mailchimp][destination] = "libraries"
+
 ;;;;;;;;;
 ; Migrate
 ;;;;;;;;
