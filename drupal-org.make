@@ -56,6 +56,15 @@ projects[commerce_donate][patch][2062285] = https://www.drupal.org/files/commerc
 projects[commerce_donate][patch][1851196] = https://www.drupal.org/files/issues/issue-1851196_1.patch
 projects[commerce_donate][patch][2278659] = https://www.drupal.org/files/issues/issue-2278659_1.patch
 
+projects[commerce_reports][subdir] = contrib
+projects[commerce_reports][version] = 4.0-alpha3
+
+projects[charts][subdir] = contrib
+projects[charts][version] = 2.0-rc1
+
+projects[views_date_format_sql][subdir] = contrib
+projects[views_date_format_sql][version] = 3.1
+
 projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 2.0
 
