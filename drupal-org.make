@@ -159,9 +159,3 @@ projects[ef_users][download][type] = "git"
 projects[ef_users][download][url] = "https://github.com/vih-elevforening/ef_users.git"
 projects[ef_users][branch] = "7.x-2.x"
 projects[ef_users][revision] = "da1906f"
-
-; OVERWRITE COMMONS LIBRARY LOCATION AS THAT IS NOT FOLLOWED CORRECTLY ON BOA ;
-
-libraries[timeago][download][type] = "get"
-libraries[timeago][type] = "libraries"
-libraries[timeago][download][url] = "https://raw.githubusercontent.com/rmm5t/jquery-timeago/v1.4.1/jquery.timeago.js"
