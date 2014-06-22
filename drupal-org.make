@@ -113,6 +113,9 @@ projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.4
 projects[google_analytics][patch][1833578] = https://drupal.org/files/google_analytics-enhanced_link_attribution-1833578-26.patch
 
+projects[optimizely][subdir] = contrib
+projects[optimizely][version] = 2.14
+
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.1
 
