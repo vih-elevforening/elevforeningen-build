@@ -4,9 +4,7 @@ Feature: Authenticated user can sign up for a paid event
   I want to be able to buy a ticket online
 
   @api @demo
-  Scenario: An authenticated user can buy ticket online
+  Scenario: An authenticated user is asked to fill in profile before registration
     Given I am logged in as a user with the "authenticated user" role
     When I am on "groups/reunion-2014"
-    When I press "Attend"
-    Then I should see "Jubilee 2014 added to your cart"
-    Then I should not see "error"
+    Then I should see "Please fill in your profile before your registration."
