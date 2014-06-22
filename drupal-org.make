@@ -77,6 +77,9 @@ projects[quickpay][version] = 1.9
 projects[views_megarow][subdir] = contrib
 projects[views_megarow][version] = 1.3
 
+projects[views_data_export][subdir] = contrib
+projects[views_data_export][version] = 3.0-beta7
+
 ;;;;;;;;;
 ; Messages and email
 ;;;;;;;;;
@@ -156,4 +159,4 @@ projects[ef_users][type] = "module"
 projects[ef_users][download][type] = "git"
 projects[ef_users][download][url] = "https://github.com/vih-elevforening/ef_users.git"
 projects[ef_users][branch] = "7.x-2.x"
-projects[ef_users][revision] = "70f0ac7"
+projects[ef_users][revision] = "da1906f"
