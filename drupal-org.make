@@ -32,6 +32,9 @@ libraries[dompdf][download][type] = get
 libraries[dompdf][download][url] = http://dompdf.googlecode.com/files/dompdf_0-6-0_beta3.tar.gz
 libraries[dompdf][overwrite] = TRUE
 
+projects[commerce_cart_expiration][subdir] = contrib
+projects[commerce_cart_expiration][version] = 1.1
+
 projects[commerce_checkout_progress][subdir] = contrib
 projects[commerce_checkout_progress][version] = 1.3
 
@@ -137,7 +140,7 @@ projects[ef_deploy][type] = "module"
 projects[ef_deploy][download][type] = "git"
 projects[ef_deploy][download][url] = "https://github.com/vih-elevforening/ef_deploy.git"
 projects[ef_deploy][branch] = "7.x-1.x"
-projects[ef_deploy][revision] = "bf658cc"
+projects[ef_deploy][revision] = "ce16c3e"
 
 projects[ef_events][subdir] = "ef"
 projects[ef_events][type] = "module"
