@@ -14,7 +14,7 @@ install:
 
   # Install the latest Drush 6.
   - export PATH="$HOME/.composer/vendor/bin:$PATH"
-  - composer global require drush/drush:6.*
+  - composer global require drush/drush:6.*@dev
   - phpenv rehash
 
   # Build Behat dependencies
