@@ -9,6 +9,11 @@ Feature: Users can sign up for a paid event
     Then I should see "Please login to register."
 
   @api @demo
+  Scenario: An anonymous user should not have access to e-mails
+    When I am on "groups/reunion-2014"
+    Then I should not see the link "Attendees"
+
+  @api @demo
   Scenario: An authenticated user is asked to fill in profile before registration
     Given I am logged in as a user with the "authenticated user" role
     When I am on "groups/reunion-2014"
