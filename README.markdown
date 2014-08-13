@@ -16,7 +16,7 @@ Installation
 
 To build a complete site, run:
 
-    drush make vih_elevforening.build ~/workspace/vih_elevforening_build
+    drush make build-elevforening.make ~/workspace/vih_elevforening_build
     
 Then setup the following:
 
@@ -30,10 +30,11 @@ Navigate to the root directory in a webbrowser.
 If you want to update just the install profile instead of rebuilding the
 entire site, you can run this:
 
-    drush make --no-core --contrib-destination=. vih_elevforening.make
+    drush make --no-core --contrib-destination=. build-elevforening.make
 
 #### Rebuild everything ####
 
 If you want to force a rebuild of everything, you can run this:
 
-    drush si vih_elevforening
+    drush si commons
+    drush en vih_deploy -y
