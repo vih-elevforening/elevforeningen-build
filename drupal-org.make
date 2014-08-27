@@ -92,7 +92,7 @@ projects[views_megarow][subdir] = contrib
 projects[views_megarow][version] = 1.3
 
 projects[views_data_export][subdir] = contrib
-projects[views_data_export][version] = 3.0-beta7
+projects[views_data_export][version] = 3.0-beta8
 
 ;;;;;;;;;
 ; Messages and email
