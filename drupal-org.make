@@ -165,7 +165,7 @@ projects[ef_fond][type] = "module"
 projects[ef_fond][download][type] = "git"
 projects[ef_fond][download][url] = "https://github.com/vih-elevforening/ef_fond.git"
 projects[ef_fond][branch] = "7.x-2.x"
-projects[ef_fond][revision] = "f896584"
+projects[ef_fond][revision] = "2ed394d"
 
 projects[ef_migrate][subdir] = "ef"
 projects[ef_migrate][type] = "module"
