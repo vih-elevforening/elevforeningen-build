@@ -3,7 +3,7 @@
 : ${DRUSH:=drush}
 : ${DRUSH_ARGS:=}
 
-FEATURES="ef_commerce ef_events ef_users"
+FEATURES="ef_commerce ef_events ef_fond ef_users"
 
 # TODO: We should make sure that 'diff' is downloaded first!
 $DRUSH $DRUSH_ARGS en -y diff
