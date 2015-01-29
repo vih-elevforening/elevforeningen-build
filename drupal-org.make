@@ -71,7 +71,7 @@ projects[commerce_donate][patch][1851196] = https://www.drupal.org/files/issues/
 projects[commerce_donate][patch][2278659] = https://www.drupal.org/files/issues/issue-2278659_1.patch
 
 projects[commerce_reports][subdir] = contrib
-projects[commerce_reports][version] = 4.0-alpha3
+projects[commerce_reports][version] = 4.0-beta1
 
 projects[charts][subdir] = contrib
 projects[charts][version] = 2.0-rc1
