@@ -44,7 +44,7 @@ libraries[dompdf][download][url] = http://dompdf.googlecode.com/files/dompdf_0-6
 libraries[dompdf][overwrite] = TRUE
 
 projects[commerce_cart_expiration][subdir] = contrib
-projects[commerce_cart_expiration][version] = 1.1
+projects[commerce_cart_expiration][version] = 1.2
 
 projects[commerce_checkout_progress][subdir] = contrib
 projects[commerce_checkout_progress][version] = 1.3
