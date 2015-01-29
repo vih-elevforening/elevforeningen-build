@@ -86,7 +86,7 @@ projects[inline_entity_form][subdir] = contrib
 projects[inline_entity_form][version] = 1.5
 
 projects[quickpay][subdir] = contrib
-projects[quickpay][version] = 1.9
+projects[quickpay][version] = 1.11
 
 projects[views_megarow][subdir] = contrib
 projects[views_megarow][version] = 1.3
