@@ -80,7 +80,7 @@ projects[views_date_format_sql][subdir] = contrib
 projects[views_date_format_sql][version] = 3.1
 
 projects[commerce_stock][subdir] = contrib
-projects[commerce_stock][version] = 2.0
+projects[commerce_stock][version] = 2.1
 
 projects[inline_entity_form][subdir] = contrib
 projects[inline_entity_form][version] = 1.5
