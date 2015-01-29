@@ -13,7 +13,7 @@ projects[select_or_other][version] = 2.20
 ;;;;;;;;;;;
 
 projects[commerce][subdir] = contrib
-projects[commerce][version] = 1.10
+projects[commerce][version] = 1.11
 
 projects[commerce_autosku][subdir] = contrib
 projects[commerce_autosku][version] = 1.1
