@@ -5,6 +5,9 @@ core = 7.x
 ; Contrib Modules
 ;;;;;;;;;;;
 
+projects[honeypot][subdir] = contrib
+projects[honeypot][version] = 1.17
+
 projects[select_or_other][subdir] = contrib
 projects[select_or_other][version] = 2.20
 
