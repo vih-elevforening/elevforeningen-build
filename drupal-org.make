@@ -5,6 +5,9 @@ core = 7.x
 ; Contrib Modules
 ;;;;;;;;;;;
 
+projects[logintoboggan][subdir] = contrib
+projects[logintoboggan][version] = 1.4
+
 projects[honeypot][subdir] = contrib
 projects[honeypot][version] = 1.17
 
