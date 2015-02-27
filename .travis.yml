@@ -1,14 +1,17 @@
 language: php
 
 php:
+
   - 5.4
+  - 5.5
 
 mysql:
   database: drupal
   username: root
   encoding: utf8
-  
+
 install:
+
   - sudo apt-get update > /dev/null
   - "mysql -e 'create database drupal;'"
 
