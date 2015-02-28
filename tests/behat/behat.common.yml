@@ -1,12 +1,18 @@
 default:
-  paths:
-    features: 'features'
+  suites:
+    default:
+      paths:
+        features: 'features'
+      contexts:
+        - FeatureContext
+        - Drupal\DrupalExtension\Context\DrupalContext
+        - Drupal\DrupalExtension\Context\MinkContext
   extensions:
-    Behat\MinkExtension\Extension:
+    Behat\MinkExtension:
       goutte: ~
       selenium2: ~
       files_path: ../../
-    Drupal\DrupalExtension\Extension:
+    Drupal\DrupalExtension:
       text:
         username_field: 'E-mail'
         password_field: 'Password'

@@ -3,9 +3,9 @@ imports:
 
 default:
   extensions:
-    Behat\MinkExtension\Extension:
+    Behat\MinkExtension:
       base_url: http://127.0.0.1:8888
-    Drupal\DrupalExtension\Extension:
+    Drupal\DrupalExtension:
       drush:
         alias: self
       # This will be setup by .travis.yml like so:
