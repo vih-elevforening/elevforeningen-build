@@ -37,4 +37,5 @@ entire site, you can run this:
 If you want to force a rebuild of everything, you can run this:
 
     drush si commons
-    drush en vih_deploy -y
+    drush en ef_deploy -y
+    drush mi --all
