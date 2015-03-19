@@ -52,8 +52,12 @@ Feature: Users can sign up for a paid event
       And I should see "Jubilee 2014 added to your cart."
       And I should see "Account information"
       And I should see "Edit my contact information"
+    # Review
     When I press "Continue to next step"
+    # Complete checkout
+    Then I press "Continue to next step"
     Then I should see "Checkout complete"
+      And I should see "eller herfra"
     When I am on "groups/reunion-2014"
-    Then I should see "Already attending"
+    Then I see the button "Already attending"
       And I should see "View my registration"
