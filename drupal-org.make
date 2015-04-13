@@ -14,6 +14,9 @@ projects[honeypot][version] = 1.17
 projects[select_or_other][subdir] = contrib
 projects[select_or_other][version] = 2.20
 
+projects[features_override][subdir] = contrib
+projects[features_override][version] = 2.0-rc2
+
 ;;;;;;;;;;;
 ; Commerce Integration
 ;;;;;;;;;;;
@@ -148,6 +151,13 @@ projects[ef_commerce][download][type] = "git"
 projects[ef_commerce][download][url] = "https://github.com/vih-elevforening/ef_commerce.git"
 projects[ef_commerce][branch] = "7.x-2.x"
 projects[ef_commerce][revision] = "9ef0192"
+
+projects[ef_commons][subdir] = "ef"
+projects[ef_commons][type] = "module"
+projects[ef_commons][download][type] = "git"
+projects[ef_commons][download][url] = "https://github.com/vih-elevforening/ef_commons.git"
+projects[ef_commons][branch] = "7.x-2.x"
+projects[ef_commons][revision] = "6bf3a5d4740ed8110562fa26e331f2a2a97ed190"
 
 projects[ef_deploy][subdir] = "ef"
 projects[ef_deploy][type] = "module"
