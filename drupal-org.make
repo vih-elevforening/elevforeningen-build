@@ -12,7 +12,7 @@ projects[honeypot][subdir] = contrib
 projects[honeypot][version] = 1.17
 
 projects[select_or_other][subdir] = contrib
-projects[select_or_other][version] = 2.20
+projects[select_or_other][version] = 2.22
 
 projects[features_override][subdir] = contrib
 projects[features_override][version] = 2.0-rc2
