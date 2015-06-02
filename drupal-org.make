@@ -157,7 +157,7 @@ projects[ef_commons][type] = "module"
 projects[ef_commons][download][type] = "git"
 projects[ef_commons][download][url] = "https://github.com/vih-elevforening/ef_commons.git"
 projects[ef_commons][branch] = "7.x-2.x"
-projects[ef_commons][revision] = "949817d"
+projects[ef_commons][revision] = "54d6d68"
 
 projects[ef_deploy][subdir] = "ef"
 projects[ef_deploy][type] = "module"
