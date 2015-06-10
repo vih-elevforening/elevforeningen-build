@@ -150,7 +150,7 @@ projects[ef_commerce][type] = "module"
 projects[ef_commerce][download][type] = "git"
 projects[ef_commerce][download][url] = "https://github.com/vih-elevforening/ef_commerce.git"
 projects[ef_commerce][branch] = "7.x-2.x"
-projects[ef_commerce][revision] = "b9e68e0cc5fe4456bfeeee325058327d41f96de2"
+projects[ef_commerce][revision] = "a9bed65bca54c9cfa4c718a0b1dfbede32213eb1"
 
 projects[ef_commons][subdir] = "ef"
 projects[ef_commons][type] = "module"
