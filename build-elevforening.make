@@ -7,7 +7,7 @@ includes[] = https://raw.githubusercontent.com/vih-elevforening/elevforeningen-b
 projects[commons][type] = profile
 projects[commons][version] = 3.26
 projects[commons][patch][2316867] = https://www.drupal.org/files/issues/commons_disrupts-2316867-1.patch
-projects[commons][patch][2502759] = https://www.drupal.org/files/issues/patch_redirect_for_fix-2502759-1.patch
+projects[commons][patch][2502759] = https://www.drupal.org/files/issues/patch_redirect_for_fix-2502759-2.patch
 
 ; Additional modules
 includes[] = https://raw.githubusercontent.com/vih-elevforening/elevforeningen-build/7.x-2.x/drupal-org.make
