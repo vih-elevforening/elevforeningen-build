@@ -158,7 +158,7 @@ projects[ef_commerce][type] = "module"
 projects[ef_commerce][download][type] = "git"
 projects[ef_commerce][download][url] = "https://github.com/vih-elevforening/ef_commerce.git"
 projects[ef_commerce][branch] = "7.x-2.x"
-projects[ef_commerce][revision] = "a9bed65bca54c9cfa4c718a0b1dfbede32213eb1"
+projects[ef_commerce][revision] = "3888bec3c896c04ae78d2b5bd7968e5af0487925"
 
 projects[ef_commons][subdir] = "ef"
 projects[ef_commons][type] = "module"
