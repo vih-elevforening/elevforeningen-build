@@ -13,6 +13,7 @@ default:
       selenium2: ~
       files_path: ../../
     Drupal\DrupalExtension:
+      api_driver: drupal
       text:
         username_field: 'E-mail'
         password_field: 'Password'

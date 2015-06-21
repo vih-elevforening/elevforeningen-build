@@ -37,6 +37,7 @@ Feature: Users can sign up for a paid event
   @api @demo
   Scenario: An authenticated user can complete registration
     Given I am logged in as a user with the "authenticated user" role
+      And I belong to a group
     When I am on "groups/reunion-2014"
     When I click "profile"
     When I fill in the following:
