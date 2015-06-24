@@ -9,7 +9,7 @@ projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.4
 
 projects[honeypot][subdir] = contrib
-projects[honeypot][version] = 1.17
+projects[honeypot][version] = 1.18
 
 projects[select_or_other][subdir] = contrib
 projects[select_or_other][version] = 2.22
@@ -96,7 +96,7 @@ projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 2.1
 
 projects[inline_entity_form][subdir] = contrib
-projects[inline_entity_form][version] = 1.5
+projects[inline_entity_form][version] = 1.6
 
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.11
