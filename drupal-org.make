@@ -9,7 +9,7 @@ projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.4
 
 projects[honeypot][subdir] = contrib
-projects[honeypot][version] = 1.18
+projects[honeypot][version] = 1.19
 
 projects[select_or_other][subdir] = contrib
 projects[select_or_other][version] = 2.22
@@ -18,12 +18,8 @@ projects[features_override][subdir] = contrib
 projects[features_override][version] = 2.0-rc2
 
 ; Override Commons Redirect
-projects[redirect][version] = 1.x-dev
+projects[redirect][version] = 1.0-rc3
 projects[redirect][subdir] = contrib
-projects[redirect][download][type] = git
-projects[redirect][download][revision] = 0b7b8dc2d58cb277874d87c91c45f0a361e148f7
-projects[redirect][download][branch] = 7.x-1.x
-projects[redirect][patch][1796596] = https://www.drupal.org/files/issues/redirect.circular-loops.1796596-172.patch
 
 ;;;;;;;;;;;
 ; Commerce Integration
