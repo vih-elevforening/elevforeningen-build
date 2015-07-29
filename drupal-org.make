@@ -63,7 +63,7 @@ projects[commerce_checkout_progress][subdir] = contrib
 projects[commerce_checkout_progress][version] = 1.3
 
 projects[commerce_features][subdir] = contrib
-projects[commerce_features][version] = 1.0
+projects[commerce_features][version] = 1.1
 
 projects[commerce_google_analytics][subdir] = contrib
 projects[commerce_google_analytics][version] = 1.1
