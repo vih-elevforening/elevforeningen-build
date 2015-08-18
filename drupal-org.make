@@ -45,7 +45,7 @@ projects[commerce_billy_mail][subdir] = contrib
 projects[commerce_billy_mail][version] = 1.0-beta3
 
 projects[mimemail][subdir] = contrib
-projects[mimemail][version] = 1.0-beta3
+projects[mimemail][version] = 1.0-beta4
 
 libraries[dompdf][directory_name] = dompdf
 libraries[dompdf][download][type] = get
