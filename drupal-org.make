@@ -17,10 +17,6 @@ projects[select_or_other][version] = 2.22
 projects[features_override][subdir] = contrib
 projects[features_override][version] = 2.0-rc2
 
-; Override Commons Redirect
-projects[redirect][version] = 1.0-rc3
-projects[redirect][subdir] = contrib
-
 ;;;;;;;;;;;
 ; Commerce Integration
 ;;;;;;;;;;;
