@@ -2,6 +2,16 @@ api = 2
 core = 7.x
 
 ;;;;;;;;;;;
+; Override Commons
+;;;;;;;;;;;
+
+projects[registration][subdir] = contrib
+projects[registration][version] = 1.x-dev
+projects[registration][download][type] = git
+projects[registration][download][branch] = 1.x
+projects[registration][download][revision] = 09e04d3
+
+;;;;;;;;;;;
 ; Contrib Modules
 ;;;;;;;;;;;
 
