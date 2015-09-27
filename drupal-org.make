@@ -19,7 +19,7 @@ projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.4
 
 projects[honeypot][subdir] = contrib
-projects[honeypot][version] = 1.19
+projects[honeypot][version] = 1.21
 
 projects[select_or_other][subdir] = contrib
 projects[select_or_other][version] = 2.22
