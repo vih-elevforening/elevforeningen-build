@@ -80,7 +80,7 @@ projects[commerce_donate][subdir] = contrib
 projects[commerce_donate][version] = 1.0
 
 projects[commerce_reports][subdir] = contrib
-projects[commerce_reports][version] = 4.0-beta2
+projects[commerce_reports][version] = 4.0-beta3
 
 projects[charts][subdir] = contrib
 projects[charts][version] = 2.0-rc1
