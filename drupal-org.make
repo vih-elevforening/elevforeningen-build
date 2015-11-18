@@ -94,8 +94,16 @@ projects[commerce_stock][version] = 2.1
 projects[inline_entity_form][subdir] = contrib
 projects[inline_entity_form][version] = 1.6
 
+; Old Quickpay payment platform.
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.11
+
+; New Quickpay v10 payment platform.
+projects[quickpay_payment][type] = "module"
+projects[quickpay_payment][download][type] = "git"
+projects[quickpay_payment][download][url] = "https://github.com/lsolesen/quickpay_payment.git"
+projects[quickpay_payment][download][branch] = "7.x-1.x"
+projects[quickpay_payment][download][revision] = "67063e2"
 
 projects[views_megarow][subdir] = contrib
 projects[views_megarow][version] = 1.3
