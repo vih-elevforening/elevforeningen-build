@@ -62,7 +62,7 @@ projects[commerce_cart_expiration][subdir] = contrib
 projects[commerce_cart_expiration][version] = 1.2
 
 projects[commerce_checkout_progress][subdir] = contrib
-projects[commerce_checkout_progress][version] = 1.3
+projects[commerce_checkout_progress][version] = 1.4
 
 projects[commerce_features][subdir] = contrib
 projects[commerce_features][version] = 1.1
@@ -71,10 +71,7 @@ projects[commerce_google_analytics][subdir] = contrib
 projects[commerce_google_analytics][version] = 1.1
 
 projects[commerce_migrate][subdir] = contrib
-projects[commerce_migrate][version] = 1.x-dev
-projects[commerce_migrate][download][type] = git
-projects[commerce_migrate][download][branch] = 1.x-dev
-projects[commerce_migrate][download][revision] = 46a8c0c
+projects[commerce_migrate][version] = 1.2
 
 projects[commerce_donate][subdir] = contrib
 projects[commerce_donate][version] = 1.0
@@ -89,7 +86,7 @@ projects[views_date_format_sql][subdir] = contrib
 projects[views_date_format_sql][version] = 3.1
 
 projects[commerce_stock][subdir] = contrib
-projects[commerce_stock][version] = 2.1
+projects[commerce_stock][version] = 2.2
 
 projects[inline_entity_form][subdir] = contrib
 projects[inline_entity_form][version] = 1.6
@@ -109,7 +106,7 @@ projects[views_megarow][subdir] = contrib
 projects[views_megarow][version] = 1.3
 
 projects[views_data_export][subdir] = contrib
-projects[views_data_export][version] = 3.0-beta8
+projects[views_data_export][version] = 3.0-beta9
 
 ;;;;;;;;;
 ; Messages and email
