@@ -25,7 +25,7 @@ projects[select_or_other][subdir] = contrib
 projects[select_or_other][version] = 2.22
 
 projects[features_override][subdir] = contrib
-projects[features_override][version] = 2.0-rc2
+projects[features_override][version] = 2.0-rc3
 
 ;;;;;;;;;;;
 ; Commerce Integration
@@ -59,7 +59,7 @@ libraries[dompdf][download][url] = http://dompdf.googlecode.com/files/dompdf_0-6
 libraries[dompdf][overwrite] = TRUE
 
 projects[commerce_cart_expiration][subdir] = contrib
-projects[commerce_cart_expiration][version] = 1.2
+projects[commerce_cart_expiration][version] = 1.3
 
 projects[commerce_checkout_progress][subdir] = contrib
 projects[commerce_checkout_progress][version] = 1.4
@@ -83,7 +83,7 @@ projects[charts][subdir] = contrib
 projects[charts][version] = 2.0-rc1
 
 projects[views_date_format_sql][subdir] = contrib
-projects[views_date_format_sql][version] = 3.1
+projects[views_date_format_sql][version] = 3.3
 
 projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 2.2
@@ -93,7 +93,7 @@ projects[inline_entity_form][version] = 1.6
 
 ; Old Quickpay payment platform.
 projects[quickpay][subdir] = contrib
-projects[quickpay][version] = 1.11
+projects[quickpay][version] = 1.12
 
 ; New Quickpay v10 payment platform.
 projects[quickpay_payment][type] = "module"
