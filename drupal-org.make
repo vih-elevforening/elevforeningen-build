@@ -21,6 +21,9 @@ projects[logintoboggan][version] = 1.4
 projects[honeypot][subdir] = contrib
 projects[honeypot][version] = 1.21
 
+projects[mollom][subdir] = contrib
+projects[mollom][version] = 2.15
+
 projects[select_or_other][subdir] = contrib
 projects[select_or_other][version] = 2.22
 
