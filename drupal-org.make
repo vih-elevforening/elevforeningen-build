@@ -35,7 +35,7 @@ projects[features_override][version] = 2.0-rc3
 ;;;;;;;;;;;
 
 projects[commerce][subdir] = contrib
-projects[commerce][version] = 1.11
+projects[commerce][version] = 1.13
 
 projects[commerce_autosku][subdir] = contrib
 projects[commerce_autosku][version] = 1.1
@@ -95,11 +95,7 @@ projects[inline_entity_form][subdir] = contrib
 projects[inline_entity_form][version] = 1.6
 
 projects[quickpay][subdir] = contrib
-projects[quickpay][type] = module
-projects[quickpay][version] = 2.x-dev
-projects[quickpay][download][type] = git
-projects[quickpay][download][branch] = 7.x-2.x
-projects[quickpay][download][revision] = c28a817
+projects[quickpay][version] = 2.0
 
 projects[views_megarow][subdir] = contrib
 projects[views_megarow][version] = 1.3
