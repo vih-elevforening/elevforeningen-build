@@ -24,6 +24,9 @@ projects[feeds][version] = 2.0-beta2
 projects[honeypot][subdir] = contrib
 projects[honeypot][version] = 1.22
 
+projects[job_scheduler][subdir] = contrib
+projects[job_scheduler][version] = 2.0-alpha3
+
 projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.4
 
