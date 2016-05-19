@@ -68,7 +68,7 @@ projects[commerce_checkout_progress][subdir] = contrib
 projects[commerce_checkout_progress][version] = 1.4
 
 projects[commerce_features][subdir] = contrib
-projects[commerce_features][version] = 1.1
+projects[commerce_features][version] = 1.2
 
 projects[commerce_google_analytics][subdir] = contrib
 projects[commerce_google_analytics][version] = 1.1
@@ -89,10 +89,10 @@ projects[views_date_format_sql][subdir] = contrib
 projects[views_date_format_sql][version] = 3.3
 
 projects[commerce_stock][subdir] = contrib
-projects[commerce_stock][version] = 2.2
+projects[commerce_stock][version] = 2.3
 
 projects[inline_entity_form][subdir] = contrib
-projects[inline_entity_form][version] = 1.6
+projects[inline_entity_form][version] = 1.8
 
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 2.0
@@ -136,7 +136,7 @@ projects[migrate_extras][subdir] = "contrib"
 ;;;;;;;;;
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 2.1
+projects[google_analytics][version] = 2.2
 
 projects[optimizely][subdir] = contrib
 projects[optimizely][version] = 2.14
