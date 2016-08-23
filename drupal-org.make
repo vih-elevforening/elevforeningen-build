@@ -15,20 +15,26 @@ projects[registration][download][revision] = 09e04d3
 ; Contrib Modules
 ;;;;;;;;;;;
 
-projects[logintoboggan][subdir] = contrib
-projects[logintoboggan][version] = 1.4
+projects[features_override][subdir] = contrib
+projects[features_override][version] = 2.0-rc3
+
+projects[feeds][subdir] = contrib
+projects[feeds][version] = 2.0-beta2
 
 projects[honeypot][subdir] = contrib
 projects[honeypot][version] = 1.22
+
+projects[job_scheduler][subdir] = contrib
+projects[job_scheduler][version] = 2.0-alpha3
+
+projects[logintoboggan][subdir] = contrib
+projects[logintoboggan][version] = 1.4
 
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.15
 
 projects[select_or_other][subdir] = contrib
 projects[select_or_other][version] = 2.22
-
-projects[features_override][subdir] = contrib
-projects[features_override][version] = 2.0-rc3
 
 ;;;;;;;;;;;
 ; Commerce Integration
@@ -44,10 +50,7 @@ projects[commerce_backoffice][subdir] = contrib
 projects[commerce_backoffice][version] = 1.4
 
 projects[commerce_billy][subdir] = contrib
-projects[commerce_billy][version] = 1.x-dev
-projects[commerce_billy][download][type] = git
-projects[commerce_billy][download][branch] = 1.x
-projects[commerce_billy][download][revision] = 814ec79
+projects[commerce_billy][version] = 1.1
 projects[commerce_billy][patch][2093643] = https://www.drupal.org/files/issues/0002-Allow-PDF-s-filename-configuration-and-add-toke.patch
 
 projects[commerce_billy_mail][subdir] = contrib
