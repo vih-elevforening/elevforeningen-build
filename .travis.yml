@@ -2,7 +2,6 @@ language: php
 sudo: false
 
 php:
-
   - 5.6
 
 matrix:
@@ -46,7 +45,7 @@ install:
 
   # Test the current branch
   - cd drupal
-  - drush make --prepare-install profiles/vih_dk/build-elevforening.make --yes
+  - drush make --prepare-install profiles/vih_dk/build-elevforening-dev.make --yes
   - cd ../
 
   # Setup files
