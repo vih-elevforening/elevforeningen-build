@@ -1,13 +1,11 @@
 api = 2
 core = 7.x
 
-includes[] = drupal-org-core.make
+;includes[] = drupal-org-core.make
 
 ; Commons
-projects[commons][type] = profile
-projects[commons][download][type] = "get"
-projects[commons][download][url] = "https://ftp.drupal.org/files/projects/commons-7.x-3.39-core.tar.gz"
-projects[commons][patch][2316867] = https://www.drupal.org/files/issues/commons_disrupts-2316867-1.patch
+projects[drupal][download][type] = "get"
+projects[drupal][download][url] = "https://ftp.drupal.org/files/projects/commons-7.x-3.39-core.tar.gz"
 
 ; Additional modules
 includes[] = drupal-org.make
