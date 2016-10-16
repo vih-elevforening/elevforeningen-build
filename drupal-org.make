@@ -78,7 +78,7 @@ projects[quickpay][version] = 2.0
 
 projects[views_megarow][version] = 1.3
 
-projects[views_data_export][version] = 3.0-beta9
+projects[views_data_export][version] = 3.1
 
 ;;;;;;;;;
 ; Messages and email
@@ -108,7 +108,7 @@ projects[migrate_extras][version] = 2.5
 ; SEO Tools
 ;;;;;;;;;
 
-projects[google_analytics][version] = 2.2
+projects[google_analytics][version] = 2.3
 
 projects[optimizely][version] = 2.14
 
