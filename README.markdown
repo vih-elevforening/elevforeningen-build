@@ -8,8 +8,7 @@ Requirements
 
 * [php](http://php.net)
 * [mysql](http://mysql.com)
-* [drush](http://drupal.org/project/drush) 
-* [drush_make](http://drupal.org/project/drush_make)
+* [drush](http://drupal.org/project/drush)
 
 Installation
 ------------
