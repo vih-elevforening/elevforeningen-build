@@ -1,5 +1,5 @@
 api = 2
-core = 7.50
+core = 7.53
 
 projects[drupal][type] = "core"
 ;projects[drupal][download][type] = "get"
