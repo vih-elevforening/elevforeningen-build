@@ -18,13 +18,13 @@ projects[registration][download][revision] = 09e04d3
 
 projects[features_override][version] = 2.0-rc3
 
-projects[feeds][version] = 2.0-beta2
+projects[feeds][version] = 2.0-beta3
 
 projects[honeypot][version] = 1.22
 
 projects[job_scheduler][version] = 2.0-alpha3
 
-projects[logintoboggan][version] = 1.4
+projects[logintoboggan][version] = 1.5
 
 projects[mollom][version] = 2.15
 
@@ -52,9 +52,9 @@ libraries[dompdf][download][type] = get
 libraries[dompdf][download][url] = https://github.com/dompdf/dompdf/releases/download/v0.6.2/dompdf-0.6.2.zip
 libraries[dompdf][overwrite] = TRUE
 
-projects[commerce_cart_expiration][version] = 1.3
+projects[commerce_cart_expiration][version] = 1.4
 
-projects[commerce_checkout_progress][version] = 1.4
+projects[commerce_checkout_progress][version] = 1.5
 
 projects[commerce_features][version] = 1.2
 
@@ -66,19 +66,19 @@ projects[commerce_donate][version] = 1.0
 
 projects[commerce_reports][version] = 4.0-beta3
 
-projects[charts][version] = 2.0-rc1
-
-projects[views_date_format_sql][version] = 3.3
-
 projects[commerce_stock][version] = 2.3
+
+projects[charts][version] = 2.0-rc1
 
 projects[inline_entity_form][version] = 1.8
 
 projects[quickpay][version] = 2.0
 
-projects[views_megarow][version] = 1.3
-
 projects[views_data_export][version] = 3.1
+
+projects[views_date_format_sql][version] = 3.3
+
+projects[views_megarow][version] = 1.3
 
 ;;;;;;;;;
 ; Messages and email
