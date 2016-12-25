@@ -6,7 +6,7 @@ includes[] = https://raw.githubusercontent.com/vih-elevforening/elevforeningen-b
 ; Commons
 projects[commons][type] = profile
 projects[commons][subdir] = ""
-projects[commons][version] = 3.39
+projects[commons][version] = 3.40
 projects[commons][patch][2316867] = https://www.drupal.org/files/issues/commons_disrupts-2316867-1.patch
 
 ; Additional modules
