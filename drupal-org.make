@@ -43,9 +43,9 @@ projects[commerce_backoffice][version] = 1.4
 projects[commerce_billy][version] = 1.1
 projects[commerce_billy][patch][2093643] = https://www.drupal.org/files/issues/0002-Allow-PDF-s-filename-configuration-and-add-toke.patch
 
-projects[commerce_billy_mail][version] = 1.0-beta5
+projects[commerce_billy_mail][version] = 1.0-beta7
 
-projects[mimemail][version] = 1.0-beta4
+projects[mimemail][version] = 1.0
 
 libraries[dompdf][directory_name] = dompdf
 libraries[dompdf][download][type] = get
@@ -74,7 +74,7 @@ projects[inline_entity_form][version] = 1.8
 
 projects[quickpay][version] = 2.0
 
-projects[views_data_export][version] = 3.1
+projects[views_data_export][version] = 3.2
 
 projects[views_date_format_sql][version] = 3.3
 
